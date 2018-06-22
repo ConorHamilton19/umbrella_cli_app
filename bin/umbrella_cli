@@ -1,4 +1,4 @@
 #!/usr/bin/env ruby 
-require './lib/Umbrella'
+require_relative '../lib/Umbrella'
 
 Umbrella::CLI.new.call
